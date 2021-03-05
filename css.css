@@ -1,0 +1,60 @@
+
+body,input,button,select,textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{ 
+    text-decoration: none;
+    text-align: center;
+} 
+
+a:link {color:#4599ff}
+a:visited {color:#4599ff}
+a:hover {color: #4599ff}
+a:active {color:#4599ff}
+
+body{
+    background: #18191a;
+}
+
+.container {
+    width: 400px;
+    display :flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+
+input,button{
+    height: 65px;
+    font-size: 1.2rem;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+input{
+    background: #3a3b3c;
+    border:0px;
+    margin-bottom: 5px;
+    color: #e4e6eb;
+}
+
+button{
+    background: #4599ff;
+    color:#FFFFFF;
+    margin: 20px 0px;
+    
+}
+button:hover{
+    background: #4c98fb;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 22px;
+    color: #e4e6eb;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    
+}
